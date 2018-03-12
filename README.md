@@ -5,7 +5,7 @@ webshop, med produkt, styring og admin.
 
 brukerdel:
 login 
-forside:
+forside - index.html
 om side:
 produkt side
 bruker profil
