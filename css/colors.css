@@ -1,3 +1,4 @@
+/*
 .primary
 .primary-light
 .primary-dark
@@ -24,10 +25,17 @@
 
 .inactive{color: grey;}
 .background-primary
--background-secondary
-
+.background-secondary
+*/
 
 
 .info-bg{
-    background-color: #0000ff
+    background-color: red;
+}
+
+.success-bg{
+    background-color: #00ff00;
+}
+.dorf{
+    background-color: #0000ff;
 }

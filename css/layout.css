@@ -1,20 +1,27 @@
-/*Flexbox*/
+/*flex-container*/
 
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;    
 }
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+/*flex-item*/
 
 .flex-item{
-    padding: 20px;
+    padding: 40px;
     margin: 0px;
 }
 
 .flex-item:hover{
     display: block;
     background-color: #000;
-    color: #0000ff;
+    color: yellow;
 }
 
 .flex-item:active{
@@ -24,17 +31,14 @@
 
 /*Grid*/
 
-/*.viewport{
-    height: 100vw;
-    width: 100vh;
-} */
-
-.body{
-    margin: 0;
-    height: 100vw
-    width: 100vh
+.viewport{
+    height: 100vh;
+    width: 100vw;
 }
 
+.body{
+    margin:0px;
+}
 
 .grid{
     display: grid;
@@ -46,6 +50,13 @@
 .grid-a{
     grid-row-start: 1;
     grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-b{
+    grid-row-start: 2;
+    grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
 }
