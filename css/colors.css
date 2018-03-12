@@ -6,22 +6,28 @@
 .accent-light
 .accent-dark
 
-.success
+.success{color: #00ff00;}
 .success-light
 .sucess.dark
 
-.warning - orange
+.warning{color: #cc6600}
 .warning-light
 .warning-dark
 
-.danger
+.danger{color: red;}
 .danger-light
 .danger-dark
 
-.info - blå
+.info{color: #0000ff;}
 .info-light
 .info-dark
 
-.inactive - grå
+.inactive{color: grey;}
 .background-primary
 -background-secondary
+
+
+
+.info-bg{
+    background-color: #0000ff
+}

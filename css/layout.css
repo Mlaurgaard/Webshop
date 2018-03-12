@@ -1,0 +1,51 @@
+/*Flexbox*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.flex-item{
+    padding: 20px;
+    margin: 0px;
+}
+
+.flex-item:hover{
+    display: block;
+    background-color: #000;
+    color: #0000ff;
+}
+
+.flex-item:active{
+    background: #ffffff;
+}
+
+
+/*Grid*/
+
+/*.viewport{
+    height: 100vw;
+    width: 100vh;
+} */
+
+.body{
+    margin: 0;
+    height: 100vw
+    width: 100vh
+}
+
+
+.grid{
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 10% auto;
+    height: 100%;
+}
+
+.grid-a{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
