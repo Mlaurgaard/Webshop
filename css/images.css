@@ -1,0 +1,17 @@
+/*Webshop imgs*/
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-portrait-md{
+    height: 200px;
+    width: 150px;
+}
+
+.img-landscape-md{
+    height: 150px;
+    width: 300px;
+}
+

@@ -1,4 +1,4 @@
-/*flex-container*/
+/*flex-container
 
 .flex-container{
     display: flex;
@@ -10,10 +10,10 @@
     flex-direction: column;
     justify-content: space-around;    
 }
+*/
 
 
-
-/*flex-item*/
+/*flex-item
 
 .flex-item{
     padding: 40px;
@@ -29,6 +29,7 @@
 .flex-item:active{
     background: #ffffff;
 }
+*/
 
 
 /*base*/
@@ -63,4 +64,3 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
-*/
