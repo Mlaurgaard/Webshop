@@ -30,12 +30,16 @@
 
 
 .info-bg{
-    background-color: red;
+    background-color: lightblue;
 }
 
 .success-bg{
-    background-color: #00ff00;
+    background-color: lightgreen;
 }
-.dorf{
-    background-color: #0000ff;
+.danger-bg{
+    background-color: lightsalmon;
+}
+
+.warning-bg{
+    background-color: orange;
 }

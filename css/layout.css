@@ -11,6 +11,8 @@
     justify-content: space-around;    
 }
 
+
+
 /*flex-item*/
 
 .flex-item{
@@ -29,7 +31,7 @@
 }
 
 
-/*Grid*/
+/*base*/
 
 .viewport{
     height: 100vh;
@@ -40,6 +42,7 @@
     margin:0px;
 }
 
+/* grid
 .grid{
     display: grid;
     grid-template-rows: 10% auto 10%;
@@ -60,3 +63,4 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
+*/
