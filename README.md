@@ -4,7 +4,7 @@ rett vest invest prototype
 webshop, med produkt, styring og admin.
 
 brukerdel:
-login 
+login - login.html
 forside - index.html
 om side:
 produkt side
