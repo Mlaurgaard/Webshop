@@ -16,18 +16,11 @@
     grid-row-end: 4;
  }
 
-.grid-login-page{
-    display: grid;
-    height: 100%;
-    grid-template-rows: 5% auto 5%;
-    grid-template-columns: auto;
- }
-
-
  /* flex-stuff */
 
 .flex-container{
     display: flex;
+    margin: 0px;
     flex-direction: row;
     justify-content: center;
 }
@@ -54,5 +47,5 @@
 .flex-item{
     padding: auto;
     margin: auto;
-    border: solid 2px black;
+    border: solid 1px black;
 }

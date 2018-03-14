@@ -24,33 +24,17 @@ a {
     outline: 0;
 }
 
-/*sizes*/
+/*size*/
 
-.size-login-big{
+.size{
     height: 15em;
     width: 30em;
-}
-
-.size-login-md{
-    height: 2em;
-    width: 12em;
-}
-
-.size-login-sm{
-    height: 1em;
-    width: 5em;
 }
 
 
 /*boxes*/
 
-.login-box{
-    border: solid 1px grey;
-    margin: auto;
-    border-collapse: collapse;
-}
-
-.search-box{
-    border: solid 1px red;
+.box{
+    border: solid 1px black;
     margin: auto;
 }

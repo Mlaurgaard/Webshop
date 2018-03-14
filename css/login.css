@@ -1,0 +1,82 @@
+/*Login page*/
+
+/* base html components*/
+
+.viewport {
+    height: 100vh;
+    width: 100vw;
+}
+
+.body {
+    margin: 0px;
+}
+
+
+/* Grid */
+
+.grid-login-page{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 5% auto 5%;
+    grid-template-columns: auto;
+ }
+
+/*flex-containers*/
+
+.flex-container{
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container-login{
+    display: flex;
+    margin: 10em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*flex-items*/
+
+.flex-navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item{
+    margin: auto;
+    border: solid 1px black;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+/* boxes */
+
+.container-box{
+    border: solid 2px black;
+}
+
+/*sizes*/
+
+.size-login-big{
+    height: 15em;
+    width: 30em;
+}
+
+.size-login-md{
+    height: 2em;
+    width: 12em;
+}
+
+.size-login-sm{
+    height: 1em;
+    width: 5em;
+}
