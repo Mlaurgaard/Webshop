@@ -1,0 +1,101 @@
+
+/* base html components*/
+
+.viewport {
+    height: 100vh;
+    width: 100vw;
+}
+
+.body {
+    margin: 0px;
+}
+
+.hr-margin-color{
+    margin: 100px;
+    color: black;
+}
+
+/* Grid */
+
+.grid{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 5% 25% 65% 5%;
+    grid-template-columns: 5% auto;
+}
+/*grid area marking*/
+.grid-navbar-mark{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.grid-sidebar-mark{
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+
+.grid-headliner-mark{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.grid-item-mark{
+       grid-row: 3/4;
+       grid-column: 2/3;
+}
+
+.grid-footer-mark{
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+/* flex container */
+
+.flex-container-headliner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container-items{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+
+/* flex-items */
+
+.flex-product-card{
+        padding: auto;
+        margin: 0;
+        border: solid 1px black;
+}
+
+/* sizes */
+
+.item-size{
+    height: 10em;
+    width: 10em;
+}
+
+/* border */
+.border-bottom{
+    border-bottom: solid 1px black;
+    margin: 0px;
+}
+
+.border-top{
+    border-top: solid 1px black;
+    margin: 0px;
+}
+
+/* adjustments */
+
+.justify-space{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-self: center;
+}
