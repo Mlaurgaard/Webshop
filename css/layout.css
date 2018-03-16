@@ -49,3 +49,11 @@
     margin: auto;
     border: solid 1px black;
 }
+
+/* grid marking */
+
+.grid-mark-1{
+ grid-row: 1/2;
+ grid-column: 1/3;
+}
+
