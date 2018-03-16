@@ -6,8 +6,9 @@ webshop, med produkt, styring og admin.
 brukerdel:
 login - login.html
 forside - index.html
-om side:
-produkt side
+om side - about.html
+produkt side - products.html
+produkt kort - product-cards.html
 bruker profil
 
 Admin del:
