@@ -90,6 +90,10 @@
     margin: 0px;
 }
 
+.border-right{
+    border-right: solid 1px black;
+}
+
 /* adjustments */
 
 .justify-space{
