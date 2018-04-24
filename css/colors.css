@@ -1,45 +1,15 @@
-/*
-.primary
-.primary-light
-.primary-dark
+.primary{color: #99ccff;}
+.primary-light{color: #cce6ff;}
+.primary-dark{color: #3399ff;}
 
-.accent
-.accent-light
-.accent-dark
+.primary-bg{background-color: #99ccff;}
+.primary-bg-light{background-color: #cce6ff;}
+.primary-bg-dark{background-color: #3399ff;}
 
-.success{color: #00ff00;}
-.success-light
-.sucess.dark
+.secondary{color:#d1d1e0;}
+.secondary-light{color:#f0f0f5;}
+.secondary-dark{color:#a3a3c2;}
 
-.warning{color: #cc6600}
-.warning-light
-.warning-dark
-
-.danger{color: red;}
-.danger-light
-.danger-dark
-
-.info{color: #0000ff;}
-.info-light
-.info-dark
-
-.inactive{color: grey;}
-.background-primary
-.background-secondary
-*/
-
-
-.info-bg{
-    background-color: lightblue;
-}
-
-.success-bg{
-    background-color: lightgreen;
-}
-.danger-bg{
-    background-color: lightsalmon;
-}
-
-.warning-bg{
-    background-color: orange;
-}
+.secondary-bg{background-color: #d1d1e0;}
+.secondary-bg-light{background-color:#f0f0f5;}
+.secondary-bg-dark{background-color: #a3a3a3;}
